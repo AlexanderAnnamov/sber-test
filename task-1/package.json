@@ -1,0 +1,27 @@
+{
+  "name": "task-1",
+  "version": "1.0.0",
+  "description": "task of finding an array in a tree",
+  "main": "data.js",
+  "jest": {
+    "transform": {}
+  },
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "build": "tsc",
+    "start": "node ./build/findArray.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/parser": "^7.24.4",
+    "@types/babel__generator": "^7.6.8",
+    "@types/babel__template": "^7.4.4",
+    "@types/istanbul-lib-report": "^3.0.3",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.12.7",
+    "@types/yargs-parser": "^21.0.3",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2"
+  }
+}
