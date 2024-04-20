@@ -2,7 +2,6 @@ import React from 'react';
 
 import VirtualizationList from '../../components/virtualization-list/VirtualizationList';
 import Title from '../../components/title/Title';
-import Header from '../../components/header/Header';
 
 import { items } from './Items';
 
